@@ -1,0 +1,5 @@
+[classes]
+app\forms\helloworld
+app\forms\testpage
+app\modules\AppModule
+app\modules\MainModule

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="392" prefWidth="704" style="&#10;-fx-background-color: #000000;" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="408" id="imageAlt" layoutX="-8" layoutY="-8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" style="&#10;" styleClass="" textFill="#000000" width="720">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/Безымянный.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="184" id="image" layoutX="264" layoutY="0" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="208">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/puzzle-logo-no-bg-HD (carve.photos).png" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="0" layoutY="160" prefHeight="30" prefWidth="704" styleClass="label " text="Puzzle Source" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="13"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="0" layoutY="184" prefHeight="17" prefWidth="704" styleClass="label " text="Create your desktop easy" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="13"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="216" prefHeight="72" prefWidth="688" styleClass="label " text="This app based on &quot;Puzzle&quot; source by ll1ness. Please rate &quot;Puzzle&quot; project on Github by push the &quot;Star&quot; button.&#10;Thank you for choosing me &lt;3&#10;&#10;with love, ll1ness." textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="13"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="96" id="image3" layoutX="616" layoutY="296" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="144">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/java_powered_logo_freelogovectors.net_.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image4" layoutX="600" layoutY="360" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="56">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/PHP-logo.svg.png" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="248" layoutY="296" prefHeight="23" prefWidth="56" styleClass="hyperlink " text="GitHub" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="13"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-link" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link3" layoutX="384" layoutY="296" prefHeight="23" prefWidth="104" styleClass="hyperlink " text="Documentation" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="13"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-link3" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="272" layoutY="344" prefHeight="32" prefWidth="160" styleClass="button " text="Enter to test page" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Bold" size="13"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="5" color="#ff9999" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ff8080" id="buttonAlt" layoutX="672" layoutY="8" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="X" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+  </children>
+</AnchorPane>

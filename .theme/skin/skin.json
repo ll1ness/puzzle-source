@@ -1,0 +1,13 @@
+{
+  "uid": "cubowerk",
+  "name": "cubowerk",
+  "version": "",
+  "description": "",
+  "author": "Максон",
+  "authorSite": "",
+  "file": "",
+  "scopes": [
+    "gui",
+    "ide\\project\\behaviours\\GuiFrameworkProjectBehaviour"
+  ]
+}
